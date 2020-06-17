@@ -1,4 +1,10 @@
 
+.bgimg{
+    background-image: url(grass.jpg);
+    
+    
+    
+}
 #bodycont{
     padding: 75px;
     background-color: cadetblue;
@@ -8,8 +14,9 @@
    .contuniform {
       background-color: lavender;
       margin-top: 100px;
-      margin-bottom: 15px;
-      padding: 20px;
+      margin-bottom: 60px;
+      padding: 40px;
+      width: 100%;
       color: white;
       border-top: purple;
       border-bottom: purple;
@@ -41,7 +48,19 @@
       font-family: 'Nunito', sans-serif;
  }
 #img{
-    float:left;
+    
+    height: 25%;
+    width: 25%;
+    float: left;
+    display: inline-flex;
+    position: relative;
+
+    
+}
+#wrap{
+    flex-wrap: wrap;
+    clear: both;
+
 }
 
   }
@@ -58,6 +77,7 @@
     margin: 40px;
     padding: 30px;
     background-color: lavender;
+
   }
   #copyright {
     font-family: 'Nunito', sans-serif;
