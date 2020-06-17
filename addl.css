@@ -1,0 +1,19 @@
+
+#bodycont{
+    padding: 75px;
+    background-color: cadetblue;
+    
+  }
+  #contactme {
+      background-color: darkcyan;
+
+  }
+  .pic {
+      border: solid;
+      margin: 10px;
+
+  }
+ #index{
+      margin-top: 40px;
+      margin-bottom: 60px;
+  }
