@@ -2,14 +2,25 @@
 #bodycont{
     padding: 75px;
     background-color: cadetblue;
+    font-family: 'Nunito', sans-serif;
     
   }
-  #contactme {
+   .contuniform {
       background-color: lavender;
       margin-top: 100px;
       margin-bottom: 15px;
-      color:white;
+      padding: 20px;
+      color: white;
+      border-top: purple;
+      border-bottom: purple;
+      font-family: 'Nunito', sans-serif;
+  }
+
+    .h1{
+        font-size:x-large;
+        font-family: 'Nunito', sans-serif
     }
+    
 .container{
     font-family: 'Nunito', sans-serif;
 }
@@ -23,6 +34,15 @@
  #index{
       margin-top: 100px;
       margin-bottom: 60px;
+      padding: 40px;
+      width:100%;
+      background-color: lavender;
+      color:white;
+      font-family: 'Nunito', sans-serif;
+ }
+#img{
+    float:left;
+}
 
   }
   .pic{
@@ -32,12 +52,15 @@
      width: 150px;
      z-index: 0;
   }
+  
+  }
   .port-container{
     margin: 40px;
     padding: 30px;
     background-color: lavender;
   }
   #copyright {
+    font-family: 'Nunito', sans-serif;
       text-align: center;
       align-content: center;
       color: gray;
