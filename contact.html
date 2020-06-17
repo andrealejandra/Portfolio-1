@@ -6,12 +6,14 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="addl.css">  
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 </head>
-<header>
+<header class="container">
     <div class="container" id="navbar">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar fixed-top">
-        <a class="navbar-brand" href="#">Andrea</a>
+        <a class="navbar-brand" href="#">Andrea Virgen</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,14 +40,22 @@
         <h2 id="contact">Contact Me:</h2>
 
         <hr>
-        <h3>Name</h3>
-        <input>
-        <h3>Email</h3>
-        <input>
-        <h3>Message</h3>
-        <textarea>
+        <form action="">
+          <select name="query" id="query" class="form-control">
+            <option value="seeking contractor">Seeking Contractor</option>
+            <option value="full-time postion">Full-Time Postion</option>
+            <option value="part-time postion">Part-Time Position</option>
+            <option value="other">Other</option>
+          </select>
+          <h3>Name</h3>
+          <input type="text" name="Name" id="Name" class="form-control">
+          <h3>Email</h3>
+          <input type="email" name="Email" id="Email" class="form-control">
+          <h3>Message</h3>
+          <textarea class="form-control">
 
-        </textarea>
+          </textarea>
+        </form>
         <br>
         <br>
         <button id="submit">Submit</button>
@@ -56,7 +66,7 @@
 </body>
 <footer class="container">
     <nav class="navbar fixed-bottom navbar-light">
-        <a class="navbar-brand" href="#">Copyright &#169;</a>
+        <a class="navbar-brand" id="copyright" href="#">Copyright &#169;</a>
       </nav>
     </footer>
 </html>
