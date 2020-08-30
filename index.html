@@ -1,64 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 
-   
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="addl.css"> 
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet"> 
-    
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andrea's Portfolio</title>
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="addl.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
 
 </head>
 <header class="container">
-    <div class="container" id="navbar">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar fixed-top">
-        <a class="navbar-brand" href="#">Andrea Virgen</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-      
-          </ul>
-        </div>
-      </nav>
-    </div>
+  <div class="container" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar fixed-top">
+      <a class="navbar-brand" href="#">Andrea Virgen</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+  </div>
 </header>
+
+
 <body class="bgimg">
 
-    <div class="container" id="index">
+  <div class="container-fluid" id="index">
+    <div class="container">
       <div class="row">
-           <h1 class="h1" id="me">About Me</h1>
-           <hr>
-           <br>
-          <img id="img" src="bnw.jpg" alt="face">
-          
-          <p id="wrap">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quam porro id corporis dolore nulla, inventore assumenda mollitia eveniet saepe doloremque dignissimos quibusdam quisquam impedit nobis magnam dolores blanditiis adipisci.
-           </p>
-       </div>
+        <div class="col-md-12">
+          <h1 class="h1" id="me">About Me</h1>
+          <hr>
+          <br>
+        </div>
+      </div>
+      <div class="row">
+        <img id="img" src="bnw.jpg" alt="portfolio-photo">
 
-   </div>
-   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+        <div class="col-md-5">
+          <p class="paragraph">
+            Recent bootcamp grad mindful of the need for greater accessibility to larger demographic pools by
+            priorizing
+            user experience and functional utility with front-end technologies.
+            <br>
+            <br>
+          </p>
+          <p class="paragraph">
+            Skilled in customer relations, task prioritization, and time management. Growth and knowledge-oriented
+            whilst
+            highly adaptable to various work environments.
+            <br>
+            <br>
+          </p>
+          <p class="paragraph">
+            Eager to revisit background in biological studies to leverage machine learning and draw insights into the
+            realm of epigenetics with Tensor Flow.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
 </body>
 <footer class="container">
-<nav class="navbar fixed-bottom navbar-light bg-dark">
+  <nav class="navbar fixed-bottom navbar-light bg-dark">
     <a class="navbar-brand" id="copyright" href="#">Copyright &#169;</a>
   </nav>
 </footer>
+
 </html>
